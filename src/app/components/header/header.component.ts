@@ -39,13 +39,24 @@ export class HeaderComponent implements OnInit {
       },
       {
         label: 'About',
-        icon: 'pi pi-star',
+        icon: 'pi pi-eye',
         routerLink: 'about',
       },
       {
-        label: 'Calculator',
-        icon: 'pi pi-star',
-        routerLink: 'calc',
+        label: 'Tools',
+        icon: 'pi pi-pencil',
+        items: [
+          {
+            label: 'Calculator',
+            icon: 'pi pi-calculator',
+            routerLink: 'calc',
+          },
+          {
+            label: 'Calculator',
+            icon: 'pi pi-book',
+            routerLink: 'calc',
+          },
+        ],
       },
     ];
   }

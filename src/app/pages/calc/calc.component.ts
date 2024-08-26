@@ -18,7 +18,6 @@ export class CalcComponent {
   ];
 
   HandleCalc(cell: string) {
-    alert('Sssss');
     if (cell == '=') {
       this.inputSTR = eval(this.inputSTR);
     } else if (cell == 'C') this.inputSTR = '';
