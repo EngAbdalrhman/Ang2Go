@@ -1,0 +1,15 @@
+<div class="calculator">
+  <h1>Calculator</h1>
+  <div class="container">
+    <table>
+      <tr>
+        <input placeholder="0" readonly [value]="inputSTR" />
+      </tr>
+      <tr *ngFor="let row of MetaData">
+        <td *ngFor="let cell of row">
+          <button (click)="HandleCalc(cell)">{{ cell }}</button>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
