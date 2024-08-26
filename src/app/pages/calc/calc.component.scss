@@ -5,19 +5,24 @@ input {
 .calculator {
   // width: 100%;
   display: flex;
-  // justify-content: center;
+  justify-content: center;
   // justify-items: center;
-  // background-color: aqua;s
+  // background-color: aqua;
   flex-direction: column;
   align-items: center;
   font-size: large;
   font-family: sans-serif;
   font-weight: bold;
+  flex-direction: column; /* change from row to column */
+  align-items: center;
+  height: 100vh; /* set height to 100 viewport height */
+  margin: auto;
 }
 .container {
   // display: block;
   // width: auto;
   box-shadow: inset;
+  background-color: antiquewhite;
   padding: 10px;
 }
 tr {
