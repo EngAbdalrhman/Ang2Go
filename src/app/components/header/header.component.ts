@@ -52,9 +52,9 @@ export class HeaderComponent implements OnInit {
             routerLink: 'calc',
           },
           {
-            label: 'Calculator',
+            label: 'Advanced',
             icon: 'pi pi-book',
-            routerLink: 'calc',
+            routerLink: 'adv',
           },
         ],
       },

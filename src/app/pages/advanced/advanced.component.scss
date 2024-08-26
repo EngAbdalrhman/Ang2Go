@@ -1,0 +1,8 @@
+.calculAtor {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; /* change from row to column */
+  align-items: center;
+  height: 100vh; /* set height to 100 viewport height */
+  margin: auto; /* add margin auto to center vertically */
+}

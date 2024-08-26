@@ -69,8 +69,24 @@ body {
   display: flex;
   justify-content: center;
 }
-.About {
+@at-root .About {
+  // display: flex;
+  // justify-content: center;
+  // flex-direction: row;
+  // align-items: center;
+  // height: 100% !important;
+  // min-height: inherit;
   display: flex;
   justify-content: center;
+  flex-direction: column; /* change from row to column */
+  align-items: center;
+  height: 100vh; /* set height to 100 viewport height */
+  margin: auto; /* add margin auto to center vertically */
+}
+app-about {
+  justify-content: center;
+  display: flex;
   flex-direction: row;
+  align-items: center;
+  min-height: inherit;
 }
